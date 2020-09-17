@@ -1,5 +1,6 @@
 import React from "react"
 import ReactDOM from "react-dom"
+import HomeWork from './home-work.jsx'
 
 class Timer extends React.Component {
   constructor(props) {
@@ -25,6 +26,9 @@ class Timer extends React.Component {
     return (
       <div>
         Seconds: {this.state.seconds}
+        <div>
+          <HomeWork/>
+        </div>
       </div>
     );
   }
